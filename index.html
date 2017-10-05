@@ -66,12 +66,24 @@
 <script type="text/javascript" src="src/js/main.js"></script>
 <script src="src/js/bootstrap.min.js"></script>
 <script src="src/js/angular.min.js"></script>
-<script src="https://www.gstatic.com/firebasejs/3.6.6/firebase.js"></script>
 <script src="https://cdn.firebase.com/libs/angularfire/2.3.0/angularfire.min.js"></script>
 <script src="src/js/angular-route.js"></script>
 <script src="controllers/app.js"></script>
 <script src="controllers/controller.js"></script>
 
+<script src="https://www.gstatic.com/firebasejs/4.5.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyDXE1AqwssPNK5EdUXrCtRpp0Jja90O-cM",
+        authDomain: "mycontacts-2017.firebaseapp.com",
+        databaseURL: "https://mycontacts-2017.firebaseio.com",
+        projectId: "mycontacts-2017",
+        storageBucket: "mycontacts-2017.appspot.com",
+        messagingSenderId: "498326200366"
+    };
+    firebase.initializeApp(config);
+</script>
 </body>
 </html>
 
